@@ -3,7 +3,11 @@ AssetsGenerator
 
 Simple Python script to generate iOS icon image assets
 
-# Usage
+## Install
+
+Install [Pillow](http://pillow.readthedocs.org/installation.html#simple-installation) first. Then clone the repo.
+
+## Usage
 
 Run
 
