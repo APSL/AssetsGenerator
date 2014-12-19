@@ -40,7 +40,7 @@ def generate_icon_images(icon_filename):
     images = []
     for size in sizes:
         i = img.resize((size, size), Image.ANTIALIAS)
-        img_filename = "icon{0}.png".format(size)
+        img_filename = "Icon{0}.png".format(size)
         i.save(img_filename, format="PNG")
         if size == 29:
             asset_entry = {
@@ -160,9 +160,9 @@ def generate_icon_images(icon_filename):
             }
             images.append(asset_entry)
             asset_entry = {
-                "size": "120x120",
-                "idiom": "car",
-                "scale": "1x",
+                "size": "60x60",
+                "idiom": "iphone",
+                "scale": "2x",
                 "filename": img_filename
             }
             images.append(asset_entry)
