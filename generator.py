@@ -10,7 +10,7 @@ from PIL import Image
 
 
 def generate_icon_images(icon_filename):
-    sizes = [29, 40, 50, 57, 58, 72, 76, 80, 87, 100, 114, 120, 144, 152, 180]
+    sizes = [20, 29, 40, 60, 50, 57, 58, 72, 76, 80, 87, 100, 114, 120, 144, 152, 167, 180, 1024]
     image_name = icon_filename
     contents = {
         "info": {
